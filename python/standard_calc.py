@@ -4,8 +4,7 @@ def bound_to_180(angle):
     while angle > 360:
         angle -= 360
     return float(angle)
-
-
+    
 def is_angle_between(first_angle, middle_angle, second_angle):
     if first_angle < middle_angle < second_angle:
         return True
