@@ -23,6 +23,7 @@ def test_bound_basic4():
 def test_bound_basic5():
     assert bound_to_180(450) == 90.0
 
+
 def test_bound_basic6():
     assert bound_to_180(-550) == 170
 
