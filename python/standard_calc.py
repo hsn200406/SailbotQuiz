@@ -1,7 +1,7 @@
 def bound_to_180(angle):
-    while angle < -180:
+    while angle <= -180:
         angle += 360
-    while angle > 360:
+    while angle > 180:
         angle -= 360
     return float(angle)
 
